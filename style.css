@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+h1{
+    position: fixed;
+    top: 0px;
+    transition: ease-in-out .5s;
+    cursor: pointer;
+}
+
+h1:hover{
+    color:khaki;
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time h2:hover{
+    transition: ease-in-out .5s;
+    color:red;
+    cursor: pointer;
+}
+
+#timer {
+    font-size: larger;
+    font-weight: 600;
+    padding: 4px;
+    margin: 8px;
+    box-shadow: 0 0 5px red;
+}
+
+
+body{
+    background-color: #3498db;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+#box{
+    width: 40vw;
+    padding: 15px;
+    box-shadow: 0px 0px 10px #000;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.row {
+    width: 100%;
+    margin: 2rem;
+    margin-left: 0;
+}
+
+.btn {
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px #000;
+}
+ footer{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    position: fixed;
+    bottom: 0px;
+    background-color: black;
+    color: antiquewhite;
+    padding: 3px;
+ }
+
+.btn:hover {
+    background-color: rgb(118, 7, 192);
+}
+
+@media (max-width:768px) {
+    html{
+        font-size: 80%;
+    }
+    #box{
+        min-width: 60vw;
+    }
+}
+
+
+
+
+
+ 
